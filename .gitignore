@@ -1,0 +1,33 @@
+# ignore jupyter setup folder
+env/
+
+# ignore vscode
+.vscode/
+
+#ignore webstorm setup
+.idea/
+
+#ignore DS_Store
+.DS_Store
+
+# ignore notebook checkpoints
+.ipynb_checkpoints
+
+# ignore models
+*.ckpt.*
+*checkpoint*
+*tfevents*
+
+# ignore folders
+Test/
+protoc-3.5.1-osx-x86_64/
+photo-scoring/
+models-master/
+deep-learning/
+tf_logs/
+poc/
+notes/
+
+# ignore datasets
+datasets/
+*MNIST_data*
